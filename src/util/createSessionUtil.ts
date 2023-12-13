@@ -317,6 +317,7 @@ export default class CreateSessionUtil {
       client = clientsArray[session] = {
         status: null,
         session: session,
+        whatsappVersion: '2.2353.0',
       } as any;
     return client;
   }
